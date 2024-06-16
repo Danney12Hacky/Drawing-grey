@@ -1,25 +1,22 @@
 body{
     margin: 0px;
     padding: 0px;
-
+    flex-wrap: wrap;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box; 
-}
+}   
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(5, 0, 0);
     margin: 20px;
-   
-    
-    
+        
 }
 nav li{
     display: inline;
     align-items: center;
-    
-    
-   
-    
+}
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 .logo{
     display: flex;
@@ -41,15 +38,35 @@ header{
 section{
     margin: 30px;
 }
+.resaltar{
+    color: rgba(130, 130, 130, 1);
+}
+
 .img1{
-    margin: 500px;
+    text-align: right;
+    padding: auto;
+    float:left;
+  
 }
 nav a{
     font-weight: 200px;
     padding-right: 10px;
-
+    flex-wrap: wrap;
 
 }
 nav a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
+    text-decoration: underline;
+}
+.fin{
+    color:rgba(85, 82, 82, 1);
+    background-color: black;
+    height: 264PX;
+}
+
+i{
+    font-weight: 200px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items:center ;
 }
