@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+    flex-wrap: wrap;
+}   
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+        
+}
+
+nav li {
+    display: inline;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+
+header{
+    
+    background-color: rgba(153, 153, 153, 1);
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    padding: 10px ;
+}
+
+section{
+    margin: 15px;
+}
+.titulo{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 45px;
+    justify-content: center;
+}
+
+.arbol{
+    display: flex;
+    padding: 15px;
+    padding-top: -500px;
+    
+    
+}
+
+.caballo{
+    display: flex;
+    padding: 30px;
+    padding-top: -2000px;
+    margin-left: 610px;
+
+}
+
+
+
+
+
+
+
+
+nav li a:hover{
+    color: rgb(255, 254, 254);
+    text-decoration: underline;
+    
+
+}
+footer {
+    display: flex;
+    color:rgba(85, 82, 82, 1);
+    background-color: black;
+    height: 150px;
+    padding: 10px;
+    align-items:center ;
+    justify-content: center;
+
+    
+}
+
+
+.iconos {
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    align-items:5 px;
+}
+ footer .siguenos{
+    display: flex;
+    justify-content: center;
+    font-weight: 200px;
+    padding-right: 10px;
+    
+ }
