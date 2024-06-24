@@ -6,7 +6,7 @@ body{
     flex-wrap: wrap;
 }   
 
-a{
+nav li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin: 20px;
@@ -33,6 +33,31 @@ header{
     padding: 10px ;
 }
 
+nav li a:hover{
+    color: rgb(255, 254, 254);
+    text-decoration: underline;
+    
+
+}
+
+
+.cursos{
+    color:white;
+    background-color: black;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    padding-left:35px;
+    border-radius: 10px;
+   
+}
+
+.cursos:hover{
+    background-color: rgba(85, 82, 82, 1);
+    text-decoration: none;
+}
+/*Section*/
+
 section{
     margin: 15px;
 }
@@ -43,14 +68,25 @@ section{
     justify-content: center;
 }
 
-.arbol{
+p{
     display: flex;
-    padding: 15px;
-    padding-top: -500px;
-    
-    
+    text-align:center
 }
 
+a{
+    color:black
+}
+
+a:hover{
+    color:grey
+
+}
+
+.arbol a p {
+    display: flex;
+    text-align:center;
+    align-items: center;
+} 
 .caballo{
     display: flex;
     padding: 30px;
@@ -60,18 +96,6 @@ section{
 }
 
 
-
-
-
-
-
-
-nav li a:hover{
-    color: rgb(255, 254, 254);
-    text-decoration: underline;
-    
-
-}
 footer {
     display: flex;
     color:rgba(85, 82, 82, 1);

@@ -39,6 +39,23 @@ nav li a:hover{
     
 
 }
+
+
+.cursos{
+    color:white;
+    background-color: black;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    padding-left:35px;
+    border-radius: 10px;
+   
+}
+
+.cursos:hover{
+    background-color: rgba(85, 82, 82, 1);
+    text-decoration: none;
+}
 footer {
     display: flex;
     color:rgba(85, 82, 82, 1);
