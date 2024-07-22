@@ -25,29 +25,35 @@
                 </ul>
             </nav>
     </header>
-    <section>
+    <div>
         <h1>
             Curso
         </h1>
-        <form action=""method = "get">
-            <label for="nombre">Nombres y Apellidos</label>
-            <input class="nombre" type="text" name="nombre" id = "nombre" >
-            <br> 
-            <select name="tipo_id" id="tipo_id">
-                <option value="tarjeta_de_identidad">Tipo de documento</option>
-                <option value="cedula_de_ciudadania">Cédula de ciudadanía</option>
-                <option value="tarjeta_de_identidad">Tarjeta de identidad</option>
-                <option value="cedula_de_extranjeria">Cédula de extranjería</option>
-            </select>
-            <br>
-            <label for="identificación"></label>
-            <input class="id" type="number" name="identificación" id = "identificación"placeholder="Número de documento">
-            <br>
-            <label for="correo">E-mail</label>
-            <input class="correo" type="text" name="correo" id = "correo" placeholder = "email@joseff.com" >
-            <br> 
-            <label for="Pregunta">¿Qué técnicas de dibujo te gustaria aprender?</label>
-            <input class="pregunta" type="text" name="pregunta" id = "pregunta" placeholder = "Respuesta" >
+        
+        <form action="" method = "get">
+            <div>
+                <label for="nombre">Nombres y Apellidos</label>
+                <input class="nombre" type="text" name="nombre" id = "nombre" >
+            </div>
+            <div>
+                <select name="tipo_id" id="tipo_id">
+                    <option value="tarjeta_de_identidad">Tipo de documento</option>
+                    <option value="cedula_de_ciudadania">Cédula de ciudadanía</option>
+                    <option value="tarjeta_de_identidad">Tarjeta de identidad</option>
+                    <option value="cedula_de_extranjeria">Cédula de extranjería</option>
+                </select>
+                <label for="identificación"></label>
+                <input class="id" type="number" name="identificación" placeholder="Número de documento">
+            </div>
+            <div>
+                <label>E-mail</label>
+                <input type="email" class="correo" name="email" id="email">
+            </div>
+            <div>
+                <label for="Pregunta">¿Qué técnicas de dibujo te gustaria aprender?</label>
+                <input class="pregunta" type="text" name="respuesta" placeholder = "Respuesta" >
+            </div>
+            
         </form>
         <div class="acceso">
             <p>Acceso a este curso <b class="precio">$40.000</b></p>  
@@ -59,7 +65,7 @@
             }
         </script>  
          
-    </section>
+    </div>
     <footer>
         <div>
             <h4>

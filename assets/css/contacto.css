@@ -62,9 +62,7 @@ section{
 h1 {
     font-size: 60px;
 }
-input{
-    display: flex;
-}
+
 .nombre{
     display: flex;
     margin-top: 10px;
