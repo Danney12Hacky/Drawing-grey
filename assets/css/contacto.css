@@ -18,9 +18,10 @@ nav li {
     align-items: center;
 }
 
-.logo{
+.imgLo{
+    width: 250px;
     display: flex;
-    margin: 15px;
+    margin-top: -100px;
     align-items: center;
 }
 
@@ -31,8 +32,8 @@ header{
     height: 70px;
     justify-content: space-between;
     padding: 10px ;
-    padding-top: 0px;
-    padding-bottom: 60px
+    padding-top: 40px;
+    padding-bottom: 30px
 }
 
 nav li a:hover{
@@ -55,7 +56,7 @@ nav li a:hover{
     background-color: rgba(85, 82, 82, 1);
     text-decoration: none;
 }
-section{
+.section{
     margin: 80px;
     justify-content: center;
 }
@@ -102,7 +103,7 @@ select{
 
 .acceso {
     display: flex;
-    margin:-500px 30px 0px 900px;
+    margin:-450px 30px 0px 900px;
     background-color: white;
     padding: 55px 0px 55px 50px ;
     border-radius: 9px;

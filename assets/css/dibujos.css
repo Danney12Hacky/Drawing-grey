@@ -17,10 +17,10 @@ nav li {
     display: inline;
     align-items: center;
 }
-
-.logo{
+.imgLo{
+    width: 250px;
     display: flex;
-    margin: 15px;
+    margin-top: -100px;
     align-items: center;
 }
 
@@ -31,8 +31,8 @@ header{
     height: 70px;
     justify-content: space-between;
     padding: 10px ;
-    padding-top: 0px;
-    padding-bottom: 60px
+    padding-top: 40px;
+    padding-bottom: 30px
 }
 
 nav li a:hover{
@@ -71,7 +71,7 @@ section{
     margin: 45px;
     justify-content: center;
     font-size: 35px;
-
+    margin-bottom: 150px;
 }
 
 p{
@@ -80,7 +80,7 @@ p{
 }
 
 a{
-    color:black
+    color:black;
 }
 
 a:hover{
@@ -90,48 +90,73 @@ a:hover{
 
 .arbol a p {
     display: flex;
-    text-align:center;
-    
-} 
-
-.arbol{
-    margin-left:50px;
+    text-align:center;   
 }
 
-.img1{
-   
+.arbol{
+    margin-left:390px;
+}
+.textAr{
+    margin-left: 300px;
+}
+.caballo{
+    margin-top: -450px;
+    margin-left: 1030px;
+}
+.textCa{
+    margin-top: -430px;
+    margin-left: 930px;
+}
+.imgAr{
     height:342px;
-    width:578px;
-    
+    width:598px;
+    margin-left: 110px
+}
+.ojo{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.textO{
+    margin-left:270px;
+
+}
+.periquito{
+    margin-top: -500px;
+    margin-left: 1030px;
+}
+.textP{
+    margin-top: -480px;
+    margin-left: 950px;
 }
 
 
 .img2{
     display: flex;
     height:342px;
-    width:578px;
-    margin-top: -236px;
-    margin-left: 638px;
+    width:598px;
+    margin-top: -380px;
+    margin-left: 760px;
+    
 
 }
 
 .img3{
     display: flex;
     height:342px;
-    width:578px;
-    margin-top: 300px;
+    width:598px;
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .img4{
     display: flex;
     height:342px;
-    width:578px;
-    margin-top: -428px;
-    margin-left: 638px;
-    
-    
+    width:598px;
+    margin-left: 760px;
+    margin-top: -400px;
+    margin-bottom: 50px;   
 }
-
 
 footer {
     display: flex;
