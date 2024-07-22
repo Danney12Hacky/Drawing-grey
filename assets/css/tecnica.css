@@ -2,15 +2,13 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box; 
-    flex-wrap: wrap;
+    box-sizing: border-box;  
 }   
 
 a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin: 20px;
-    
 }
 
 ul li {
@@ -18,9 +16,6 @@ ul li {
     align-items: center;
     padding:0px;
     margin: 0px;
-
-    
-
 }
 
 nav li {
@@ -39,12 +34,12 @@ header{
     
     background-color: rgba(153, 153, 153, 1);
     display: flex;
-    height: 90px;
+    height: 70px;
     justify-content: space-between;
     padding: 10px ;
+    padding-top: 0px;
+    padding-bottom: 60px
   
-    
-    
 }
 
 .cursos{
@@ -62,12 +57,8 @@ header{
     background-color: rgba(85, 82, 82, 1);
     text-decoration: none;
 }
-
-
-
 section{
     margin: 40px;
-
 }
 
 .titulo{
@@ -82,7 +73,11 @@ section{
 
 .t_color{
     display: flex;
-    margin-left: 300px;
+    justify-content: center;
+    height:508px;
+    width:648px;
+    margin-left: 420px;
+   
 }
 
 h2{
@@ -95,28 +90,32 @@ h2{
     
 }
 h3{
+    display: flex;
     font-size: 20px;
+    margin-left: 170px;
 }
 p{
+    display: flex;
+    justify-content: center;
     font-size: 16px;
     line-height: 1.4;
-    margin-top: 0px;
+    
+    
 }
-
-
-
 .ania{
     display: flex;
-    padding: 10px;
-    margin-left: 120px;
-    
+    justify-content: center;
+    height:498px;
+    width:398px;
+    margin: 10px 265px 40px;    
 }
 .pony{
     display: flex;
-    padding: 30px;
-    margin-top: -535px;
-    margin-left: 620px;
-    margin-bottom: 80px;
+    justify-content: center;
+    height:498px;
+    width:398px;
+    margin: -538px 0px 80px 750px;
+   
 }
 
 nav a{
@@ -133,29 +132,20 @@ nav li a:hover{
 }
 footer {
     display: flex;
-    color:rgba(85, 82, 82, 1);
+    color:rgb(109, 105, 105);
     background-color: black;
-    height: 150px;
-    padding: 10px;
-    align-items:center ;
     justify-content: center;
+    text-align: center;
 
     
 }
-
-
 .iconos {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 50px;
-    align-items:center;
-    justify-content: center;
-    margin: 0 10px;
+    display: flex; 
+    justify-content: center; 
 }
- footer .siguenos{
-    display: flex;
-    justify-content: center;
-    font-weight: 200px;
-    padding-right: 10px;
-    
- }
+.img1{
+    display:flex;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}

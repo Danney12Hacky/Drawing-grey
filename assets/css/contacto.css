@@ -28,18 +28,17 @@ header{
     
     background-color: rgba(153, 153, 153, 1);
     display: flex;
-    height: 90px;
+    height: 70px;
     justify-content: space-between;
     padding: 10px ;
+    padding-top: 0px;
+    padding-bottom: 60px
 }
 
 nav li a:hover{
     color: rgb(255, 254, 254);
     text-decoration: underline;
-    
-
 }
-
 
 .cursos{
     color:white;
@@ -56,30 +55,90 @@ nav li a:hover{
     background-color: rgba(85, 82, 82, 1);
     text-decoration: none;
 }
+section{
+    margin: 80px;
+    justify-content: center;
+}
+h1 {
+    font-size: 60px;
+}
+input{
+    display: flex;
+}
+.nombre{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-right: 200px;
+    border-radius: 5px;
+
+}
+select{
+    padding: 5px;
+    border-radius: 5px;
+}
+.id{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom:20px ;
+    padding: 5px;
+    padding-right: 200px;
+    border-radius: 5px;
+    
+}
+.correo{
+    display: flex;
+    margin-top: 10px ;
+    padding: 5px;
+    padding-right: 200px;
+    margin-bottom:20px;
+    border-radius: 5px;
+}
+.pregunta{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px 410px 130px 10px;
+    border-radius: 5px;
+}
+
+.acceso {
+    display: flex;
+    margin:-500px 30px 0px 900px;
+    background-color: white;
+    padding: 55px 0px 55px 50px ;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px 2px rgb(229, 225, 225);
+}
+button{
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 380px;
+    border-radius:7px;
+    margin: 40px 120px 250px 930px;
+}
+
+.precio{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
 footer {
     display: flex;
-    color:rgba(85, 82, 82, 1);
+    color:rgb(109, 105, 105);
     background-color: black;
-    height: 150px;
-    padding: 10px;
-    align-items:center ;
     justify-content: center;
-
-    
+    text-align: center;
 }
-
-
 .iconos {
-    justify-content: space-between;
-    display: flex;
-    justify-content: center;
-    padding-right: 10px;
-    align-items:5 px;
+    display: flex; 
+    justify-content: center; 
 }
- footer .siguenos{
-    display: flex;
-    justify-content: center;
-    font-weight: 200px;
-    padding-right: 10px;
-    
- }
+.img1{
+    display:flex;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}

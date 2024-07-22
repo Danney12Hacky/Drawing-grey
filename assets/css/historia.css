@@ -28,9 +28,11 @@ header{
     
     background-color: rgba(153, 153, 153, 1);
     display: flex;
-    height: 90px;
+    height: 70px;
     justify-content: space-between;
     padding: 10px ;
+    padding-top: 0px;
+    padding-bottom: 60px
 }
 
 
@@ -77,6 +79,8 @@ p{
 
 
 .img_his{
+    display: flex;
+    justify-content: center;
     padding: 30px;
     margin-left:40px;
 }
@@ -94,33 +98,20 @@ nav li a:hover{
 }
 footer {
     display: flex;
-    color:rgba(85, 82, 82, 1);
+    color:rgb(109, 105, 105);
     background-color: black;
-    height: 150px;
-    padding: 10px;
-    align-items:center ;
     justify-content: center;
-    justify-content: space-around;
-    justify-content: space-around;
-  
+    text-align: center;
 
     
 }
-
-
 .iconos {
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    margin: 5px;
-   
-
-    
+    display: flex; 
+    justify-content: center; 
 }
- footer .siguenos{
-    display: flex;
-    justify-content: center;
-    font-weight: 200px;
-    padding-right: 10px;
-    
- }
+.img1{
+    display:flex;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
